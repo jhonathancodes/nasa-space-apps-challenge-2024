@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(26, 25, 25);
+}
+
+header {
+    color: white;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div1 {
+    margin: 0 auto;
+    color: white;
+    width: fit-content;
+    font-size: 20px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.texto1 {
+    margin: 0 auto;
+    text-align: justify;
+    max-width: fit-content;
+    width: 775px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    transition: all 0.30s;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.367);
+}
+
+.texto1:hover {
+    padding: 15px 20px 15px 20px;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.367);
+}
+.texto2 {
+    margin: 0 auto;
+    text-align: justify;
+    width: 775px;
+    max-width: fit-content;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    transition: all 0.30s;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.367);
+}
+
+.texto2:hover{
+    padding: 15px 20px 15px 20px;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.367);
+}
+
+img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.imagem {
+    text-align: center;
+}
+
+/* Relacionadas ao Mapa */
+.mapa {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#map {
+    display: none;
+}
+
+#map .state {
+    cursor: pointer;
+}
+
+#map .state .shape {
+    cursor: pointer;
+    -width: 0;
+}
+
+#map .state .label_icon_state {
+    fill: #fff;
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: normal;
+}
+
+#map .state .label_state {
+    display: none;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+#map .state:hover .label_state,
+#map .state.hover .label_state {
+    display: block;
+}
+
+#map .model-green .state .shape {
+    fill: #464646;
+}
+
+#map .model-green .state .icon_state {
+    fill: #131614;
+}
+
+#map .model-green .state .label_icon_state {
+    fill: #fff;
+}
+
+#map .model-green .state .label_state {
+    fill: #fff;
+}
+
+#map .model-green .state:hover .shape,
+#map .model-green .state.hover .shape {
+    fill: #545659;
+}
+
+#map .model-green .state:hover .icon_state,
+#map .model-green .state.hover .icon_state {
+    fill: #191919;
+}
+
+#map .model-orange .state .shape {
+    fill: #fd7132;
+}
+
+#map .model-orange .state .icon_state {
+    fill: #6cb361;
+}
+
+#map .model-orange .state .label_icon_state {
+    fill: #fff;
+}
+
+#map .model-orange .state .label_state {
+    fill: #666;
+}
+
+#map .model-orange .state:hover .shape,
+#map .model-orange .state.hover .shape {
+    fill: #c93f04;
+}
+
+#map .model-orange .state:hover .icon_state,
+#map .model-orange .state.hover .icon_state {
+    fill: #10592f;
+}
+
+#map .model-darkgreen .state .shape {
+    fill: #366823;
+}
+
+#map .model-darkgreen .state .icon_state {
+    fill: #2779c6;
+}
+
+#map .model-darkgreen .state .label_icon_state {
+    fill: #fff;
+}
+
+#map .model-darkgreen .state .label_state {
+    fill: #666;
+}
+
+#map .model-darkgreen .state:hover .shape,
+#map .model-darkgreen .state.hover .shape {
+    fill: #4a8c31;
+}
+
+#map .model-darkgreen .state:hover .icon_state,
+#map .model-darkgreen .state.hover .icon_state {
+    fill: #5a95ce;
+}
